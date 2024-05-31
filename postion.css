@@ -1,0 +1,93 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(95, 95, 231);
+}
+
+
+.box-one , .box-two, .box-three, .box-four, .box-five{
+    width: 400px;
+    height: 400px;
+}
+.black {
+    background-color: black;
+}
+.blue {
+    background-color: blue;
+}
+.brown {
+    background-color: brown;
+}
+.pink {
+    background-color: pink;
+}
+.orange {
+    background-color: orange;
+}
+.box-three {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    flex-wrap: ; let you to discorve
+    /* flex-grow: ; */
+    /* flex-shrink: ; */
+    /* flex: 1, */
+    /* flex: 2, */
+}
+.box-four {
+    width: 100px;
+    height: 100px;
+}
+
+.box-five {
+    width: 50px;
+    height: 50px;
+}
+/*
+
+h1{
+    display: inline;
+}
+
+button {
+    display: block;
+    z-index: 1;
+}
+.box-one {
+    position: s;
+    top: 10px;
+    width: 100vw;
+    right: 0;
+    left: 0px;
+    z-index: -1;
+    opacity: 65%;
+}
+
+.box-four {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10%;
+}
+.box-five{
+    position: fixed;
+    left: 10%;
+}
+/* .box-three, , .box-five */
+
+.absolute{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.fixed {
+    position: sticky;
+    top: 100px;
+
+} */
